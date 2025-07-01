@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+            <html lang="en">
+            <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>asdfsa | Gallery</title>
+            <link rel="stylesheet" href="css/base.css" />
+            <link rel="stylesheet" href="css/gallery.css" />
+            </head>
+            <body>
+            <header class="site-header">
+  <div class="header-container">
+    <a href="index.html" class="logo">asdfsa</a>
+    
+    <button class="menu-toggle" aria-label="Toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    
+    <nav class="main-nav">
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+            <main class="gallery-page">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">asdf Showcase</h1>
+      <p class="hero-subtitle">Where innovation meets exceptional design</p>
+    </div>
+  </section>
+
+  <!-- Filter Controls -->
+  <section class="filter-controls">
+    <div class="filter-container">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="residential">Residential</button>
+      <button class="filter-btn" data-filter="commercial">Commercial</button>
+      <button class="filter-btn" data-filter="renovations">Renovations</button>
+      <button class="filter-btn" data-filter="sustainable">Sustainable Design</button>
+    </div>
+  </section>
+
+  <!-- Gallery Grid -->
+  <section class="gallery-grid">
+    <!-- Project 1 -->
+    <a href="#" class="gallery-item residential" data-modal="project1">
+      <div class="image-container">
+        <img src="images/gallery1.jpg" alt="Modern residential building">
+        <div class="image-overlay">
+          <h3>Hillside Residence</h3>
+          <p>Contemporary home with panoramic views</p>
+        </div>
+      </div>
+    </a>
+    
+    <!-- Project 2 -->
+    <a href="#" class="gallery-item commercial" data-modal="project2">
+      <div class="image-container">
+        <img src="images/gallery2.jpg" alt="Commercial office space">
+        <div class="image-overlay">
+          <h3>Urban Office Complex</h3>
+          <p>Mixed-use development in city center</p>
+        </div>
+      </div>
+    </a>
+    
+    <!-- Projects 3-12 (similar structure) -->
+    <!-- Only showing 2 in example for brevity -->
+  </section>
+
+  <!-- Load More Button -->
+  <div class="load-more-container">
+    <button class="load-more-btn">Load More Projects</button>
+  </div>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h2 class="section-title">Trusted by Industry Leaders</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        <i class="ph ph-building"></i>
+        <blockquote>"asdfsa delivered beyond our expectations with their innovative approach to sustainable design."</blockquote>
+        <cite>— Global Architecture Firm</cite>
+      </div>
+      <div class="testimonial">
+        <i class="ph ph-house"></i>
+        <blockquote>"The attention to detail in our residential project was remarkable."</blockquote>
+        <cite>— Luxury Home Developer</cite>
+      </div>
+      <div class="testimonial">
+        <i class="ph ph-tree"></i>
+        <blockquote>"Their eco-friendly solutions reduced our carbon footprint significantly."</blockquote>
+        <cite>— Green Building Council</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-content">
+      <h2 class="cta-title">Ready to start your project?</h2>
+      <p class="cta-text">Contact our team to discuss your vision and requirements.</p>
+      <div class="cta-buttons">
+        <a href="#" class="cta-btn primary">Get a Quote</a>
+        <a href="#" class="cta-btn secondary">View Full Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Modal (hidden by default) -->
+  <div class="project-modal" id="projectModal">
+    <div class="modal-content">
+      <button class="close-modal">&times;</button>
+      <div class="modal-body">
+        <!-- Content loaded dynamically via JS -->
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- External Resources -->
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/gallery.css">
+<script src="js/base.js"></script>
+<script src="js/gallery.js"></script>
+
+            <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-logo">asdfsa</div>
+    
+    <div class="footer-links">
+      <div class="footer-column">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h3>Connect</h3>
+        <ul class="social-links">
+          <li><a href="#" aria-label="Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+          <li><a href="#" aria-label="Twitter">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p class="copyright">&copy; 2023 asdfsa. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+            <script src="js/base.js"></script>
+            <script src="js/gallery.js"></script>
+            </body>
+            </html>
+            
